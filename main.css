@@ -1,0 +1,99 @@
+body{
+  background-color: black;
+  border: 2px solid white;
+  width: 700px;
+  height: 700px;
+  color: white;
+}
+.top{
+  height: 100px;
+  width: 700px;
+}
+.img{
+  /*width: 50px;
+  height: 100px; */
+  position: relative;
+}
+.phone{
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  left: 300px;
+  top:10px;
+}
+.mail{
+  width: 150px;
+  position: absolute;
+  left: 525px;
+  top:10px;
+  float: left;
+}
+ul{
+  display: block;
+  position: absolute;
+  top:50px;
+  left: 60px;
+}
+li{
+  display: block;
+  float: left;
+  padding: 5px 10px;
+  font-size: 10px;
+}
+.clearfix::after{
+  content:"";
+  clear: both;
+  display:table;
+}
+ul .top_list li{
+display: inline;
+margin-right: 15px;
+padding: 5px;
+}
+.top_list a{
+  text-decoration: none;
+  color:white;
+  text-transform: uppercase;
+}
+main{
+  width: 700px;
+  left: 0px;
+  top: 110px;
+  font-size: 12px;
+}
+.boxes{
+  position: relative;
+height: 250px;
+ width: 700px;  
+}
+.boxes .box{
+  height: 150px;
+  width: 150px;
+  border: 1px solid white;
+  float: left;
+  margin: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding-top: 68px;
+}
+footer{
+  height: 25px;
+  width: 700px;
+  float: left;
+  background-color: white;
+  color: black;
+  font-size: 13px;
+  padding-top: 5px;
+}
+span.text-left{
+  text-align: right;
+  float: left;
+  width: 45%;
+ }
+span.text-right{
+  text-align: left;
+  width: 45%;
+  padding-right: 30px;
+ }
